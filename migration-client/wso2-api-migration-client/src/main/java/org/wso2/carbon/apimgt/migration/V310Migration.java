@@ -28,7 +28,6 @@ public class V310Migration extends VersionMigration {
 
     @Override
     public void migrate() {
-
         RegistryServiceImpl registryService = new RegistryServiceImpl();
         TenantManager tenantManager = ServiceHolder.getRealmService().getTenantManager();
         MigrationClient migrateFrom310 = null;

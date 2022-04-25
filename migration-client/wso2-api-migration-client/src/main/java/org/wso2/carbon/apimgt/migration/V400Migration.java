@@ -11,7 +11,7 @@ import org.wso2.carbon.user.api.UserStoreException;
 import org.wso2.carbon.user.core.tenant.TenantManager;
 
 public class V400Migration extends VersionMigration {
-    private static final Log log = LogFactory.getLog(Migrator.class);
+    private static final Log log = LogFactory.getLog(V400Migration .class);
     String tenants = System.getProperty(Constants.ARG_MIGRATE_TENANTS);
     String tenantRange = System.getProperty(Constants.ARG_MIGRATE_TENANTS_RANGE);
     String blackListTenants = System.getProperty(Constants.ARG_MIGRATE_BLACKLIST_TENANTS);
