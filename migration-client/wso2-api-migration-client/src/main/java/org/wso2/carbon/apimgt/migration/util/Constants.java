@@ -47,6 +47,7 @@ public class Constants {
     // Migration client argument property names
     public static final String ARG_RUN_SPECIFIC_VERSION = "runSpecificVersion";
     public static final String ARG_MIGRATE_FROM_VERSION = "migrateFromVersion";
+    public static final String ARG_MIGRATED_VERSION = "migratedVersion";
     public static final String MIGRATION_STEP = "continueFromStep";
     public static final String PRE_MIGRATION_STEP = "runPreMigration";
     public static final String DB_MIGRATION = "databaseMigration";
@@ -385,6 +386,14 @@ public class Constants {
     public static final String DEFAULT_RES_TIER_FILE_NAME = "default-res-tiers.xml";
 
     public static final String DEFAULT_GATEWAY_VENDOR = "wso2";
+
+    public static final String MIGRATION_CONFIG_FILE_NAME = "migration-config.yaml";
+
+    public static final String MIGRATION_RESOURCE_HOME = "migration-resources";
+
+    public static final String MIGRATION_LOG = " WSO2 Product Migration Service Task : ";
+
+    public static final String CARBON_HOME = "carbon.home";
 
     public static class preValidationService {
         public static final String API_DEFINITION_VALIDATION = "apiDefinitionValidation";

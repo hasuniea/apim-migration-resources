@@ -43,7 +43,7 @@ import org.wso2.carbon.utils.multitenancy.MultitenantUtils;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MigrateUUIDToDB extends MigrationClientBase{
+public class MigrateUUIDToDB extends MigrationClientBase {
 
     protected Registry registry;
     protected TenantManager tenantManager;

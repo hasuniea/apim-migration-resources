@@ -58,6 +58,7 @@ public class APIMMigrationService implements ServerStartupObserver {
         }
 
         String migrateFromVersion = System.getProperty(Constants.ARG_MIGRATE_FROM_VERSION);
+        String migratedVersion = System.getProperty(Constants.ARG_MIGRATED_VERSION);
         String continueFromStep = System.getProperty(Constants.MIGRATION_STEP);
         String preMigrationStep = System.getProperty(Constants.PRE_MIGRATION_STEP);
         String tenants = System.getProperty(Constants.ARG_MIGRATE_TENANTS);
